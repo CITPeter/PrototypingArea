@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    </head>
+    <body>
+        <script>
+            function setTokenObject(accessToken, refreshToken, createdAt) {
+                document.getElementById("accessToken").innerText = accessToken;
+                document.getElementById("refreshToken").innerText = refreshToken;
+                document.getElementById("createdAt").innerText = createdAt;
+            }
+        </script>
+        <p>AccessToken: <span id="accessToken"></span></p>
+        <p>RefreshToken: <span id="refreshToken"></span></p>
+        <p>CreatedAt: <span id="createdAt"></span></p>
+    </body>
+</html>
